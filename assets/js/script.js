@@ -1,5 +1,5 @@
 $(function(){
-    const tolken = "IGQVJYRjV0TENWbEM2ZAnRTbWpsWG9PMHROTlloTjBSQWVKamZAyM0V1SnZA5dWpGblBpdldHOERXY1FBcWlVUmJGOXpyczh3Sm9OWVp5SzlOdmxUZA09Pc0IwQ0tabzB0eGVyelRfSmJsUXJ5M0ZAxd0JDSQZDZD";
+    const tolken ="Seu tolken";
     const url = "https://graph.instagram.com/me/media?access_token="+tolken+"&fields=media_url,media_type,caption_permalink";
     console.log(url)
     $.get(url).then(function(response){
